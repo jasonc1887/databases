@@ -74,35 +74,3 @@ c)
 SELECT *
 FROM users 
 WHERE userid = 4;
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
