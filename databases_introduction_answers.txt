@@ -1,0 +1,108 @@
+Bloc - Computer Science Fundamentals 
+Databases: Introduction 
+
+1. What data types do each of these values represent?
+
+	1. "A Clockwork Orange"
+String 
+
+	2. 42
+Integer 
+
+	3. 09/02/1945
+String
+
+	4. 98.7
+Float 
+
+	5. $15.99
+String 
+
+2. Explain when a database would be used. Explain when a text file would be used.
+
+A: If data should persist after ending an application, a database should be used to store the data. Additionally databases can be accessed by multiple applications simultaneously and should be used when needing to search for or manipulate data. A text file is appropriate if the file does not meet the needs listed above. For example a document like an essay being accessed by one individual at a time, saved, then passed along to someone else to review, edit, etc. 
+
+3. Describe one difference between SQL and other programming languages.
+
+A: SQL is a declarative language vs procedural, meaning the programmer focuses on WHAT they are trying to find out, rather than HOW the item or object is found. 
+
+4. In your own words, explain how the pieces of a database system fit together at a high level.
+
+A: A database is made up of data in a binary file format, structured so that a system can easily read and manipulate data of varying data types. A table of columns and rows is used to store this data in an organized, understandable way. SQL is used to communicate with the database. 
+
+5. Explain the meaning of table, row, column, and value.
+
+A: Tables are used as a visual representation of what is happening within a database. Tables are made up of columns, which structure like-data together, and rows which hold the values inside each cell to create the table. 
+
+6. List three data types that can be used in a table.
+
+A: String, integer, object
+
+7. 
+
+a) "I'm looking for the dates and amounts of all payments."
+
+result: 
+  '2016-05-01'  1500.00
+  '2016-05-10'  37.00
+  '2016-05-15'  124.93
+  '2016-05-23'  54.72  
+
+b) "I'm looking for payment amounts over $500"
+
+result: 
+  1500.00
+
+c) "What payments were made to Mega Foods?"
+
+result: 
+	 '2016-05-15', 'Mega Foods',  124.93, 'Groceries'
+
+8. 
+
+a)
+SELECT email, signup 
+FROM users 
+WHERE name = 'DeAndra Data';
+
+b)
+SELECT userid
+FROM users 
+WHERE email = 'aleesia.algorithm@uw.edu';
+
+c)
+SELECT *
+FROM users 
+WHERE userid = 4;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
